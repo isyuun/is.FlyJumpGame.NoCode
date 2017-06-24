@@ -24,14 +24,14 @@ public class CIntroManager : _MonoBehaviour
         _googlePlayManager.GooglePlayActivate(gameObject);
     }
 
-    public void GooglePlayGamesResult(string result)
+    public void GooglePlayGamesResult(string message)
     {
-        _msgText.text = result;
+        _msgText.text = message;
     }
 
     public void GooglePlayGamesLoginSuccess(string loginId)
     {
-        _msgText.text = loginId + "Try Google Id Login.";
+        _msgText.text = "Try Google Id Login." + ":" + loginId;
         //StartCoroutine(JoinOrLoginNetCoroutine(loginId));
     }
 
@@ -43,6 +43,11 @@ public class CIntroManager : _MonoBehaviour
     public void GooglePlayGamesLoginFail()
     {
         _msgText.text = "Fail Google Id Login.";
+    }
+
+    public void GooglePlayGamesLoginFail(string message)
+    {
+        _msgText.text = "Fail Google Id Login." + ":" + message;
     }
 
 }
