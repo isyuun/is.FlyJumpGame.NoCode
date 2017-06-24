@@ -40,11 +40,6 @@ public class CIntroManager : _MonoBehaviour
         throw new NotImplementedException();
     }
 
-    public void GooglePlayGamesLoginFail()
-    {
-        _msgText.text = "Fail Google Id Login.";
-    }
-
     public void GooglePlayGamesLoginFail(string message)
     {
         _msgText.text = "Fail Google Id Login." + ":" + message;

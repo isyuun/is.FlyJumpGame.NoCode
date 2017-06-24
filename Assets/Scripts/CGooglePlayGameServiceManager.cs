@@ -5,6 +5,7 @@ using UnityEngine;
 using GooglePlayGames;
 using UnityEngine.SocialPlatforms;
 using GooglePlayGames.BasicApi;
+using System;
 
 public class CGooglePlayGameServiceManager : _MonoBehaviour
 {
@@ -19,15 +20,15 @@ public class CGooglePlayGameServiceManager : _MonoBehaviour
         _callback = callback;
 
 
-        PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().Build();
-        PlayGamesPlatform.InitializeInstance(config);
-        /*GooglePlayGames.*/PlayGamesPlatform.DebugLogEnabled = true;
+        //PlayGamesClientConfiguration config = new PlayGamesClientConfiguration.Builder().Build();
+        //PlayGamesPlatform.InitializeInstance(config);
+        ///*GooglePlayGames.*/PlayGamesPlatform.DebugLogEnabled = true;
         
         // 구글 플레이 게임즈 활성화
         PlayGamesPlatform.Activate();
 
         // 구글 플레이 게임즈 인증
-        Social.localUser.Authenticate(GooglePlayGamesLoginCallBack2);
+        Social.localUser.Authenticate(GooglePlayGamesLoginCallBack);
     }
 
     //// 구글 플레이 게임즈 인증 콜백 함수
@@ -50,8 +51,7 @@ public class CGooglePlayGameServiceManager : _MonoBehaviour
     //        _callback.SendMessage("GooglePlayGamesLoginFail");
     //    }
     //}
-
-    void GooglePlayGamesLoginCallBack2(bool result, string message)
+    void GooglePlayGamesLoginCallBack(bool result, string message)
     {
         Debug.LogWarning(this.GetMethodName() + ":" + result + "," + message);
         _callback.SendMessage("GooglePlayGamesResult", message);
@@ -69,7 +69,15 @@ public class CGooglePlayGameServiceManager : _MonoBehaviour
         {
             // 구글 플레이 계정 로그인 실패
             _callback.SendMessage("GooglePlayGamesLoginFail", message);
+            //test
+            StartCoroutine(GooglePlayActivate());
         }
+    }
+
+    private IEnumerator GooglePlayActivate()
+    {
+        yield return new WaitForSeconds(0.5f);
+        GooglePlayActivate(this._callback);
     }
 
     // 구글 업적 UI를 실행함
