@@ -1,9 +1,9 @@
 lastUpgrade=00939
 proj.pluginVersion=0.9.39
-proj.AppId=844533971931
+proj.AppId=281777699268
 proj.classDir=Assets%2fScripts
 proj.ConstantsClassName=CGPGSIds
-and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3cstring+name%3d%22app_id%22%3e844533971931%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22%3eis.FlyJumpGame.NoCode%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star5%22%3eCgkI2_eWkcoYEAIQAg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star10%22%3eCgkI2_eWkcoYEAIQBA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star15%22%3eCgkI2_eWkcoYEAIQBQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star20%22%3eCgkI2_eWkcoYEAIQBg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star25%22%3eCgkI2_eWkcoYEAIQBw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_is.flyjumpgame.nocode%22%3eCgkI2_eWkcoYEAIQAA%3c%2fstring%3e%0d%0a%3c%2fresources%3e%0d%0a
-and.ClientId=844533971931-ptck7ha7vavjm16onmbb536drv7jg4ff.apps.googleusercontent.com
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3cstring+name%3d%22app_id%22%3e281777699268%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22%3eis.FlyJumpGame.NoCode2%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star5%22%3eCgkIxPOJ2pkIEAIQAg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star10%22%3eCgkIxPOJ2pkIEAIQAw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star15%22%3eCgkIxPOJ2pkIEAIQBA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star20%22%3eCgkIxPOJ2pkIEAIQBQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_star25%22%3eCgkIxPOJ2pkIEAIQBg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_is.flyjumpgame.nocode2%22%3eCgkIxPOJ2pkIEAIQAQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e%0d%0a
+and.ClientId=281777699268-2pn06ert4o9ef5f5au358gdueg5on08f.apps.googleusercontent.com
 android.SetupDone=true
-and.BundleId=is.FlyJumpGame.NoCode
+and.BundleId=is.FlyJumpGame.NoCode2

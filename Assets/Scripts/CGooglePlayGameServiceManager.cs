@@ -139,7 +139,7 @@ public class CGooglePlayGameServiceManager : _MonoBehaviour
         }
 
         // 리더 보드를 갱신함
-        Social.ReportScore(starCount, CGPGSIds.leaderboard_isflyjumpgamenocode, LeaderBoardScoreSetCallback);
+        Social.ReportScore(starCount, CGPGSIds.leaderboard_isflyjumpgamenocode2, LeaderBoardScoreSetCallback);
     }
 
     void LeaderBoardScoreSetCallback(bool result)

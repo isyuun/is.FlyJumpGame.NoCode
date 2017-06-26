@@ -24,12 +24,12 @@
 
 public static class CGPGSIds
 {
-        public const string achievement_star10 = "CgkI2_eWkcoYEAIQBA"; // <GPGSID>
-        public const string leaderboard_isflyjumpgamenocode = "CgkI2_eWkcoYEAIQAA"; // <GPGSID>
-        public const string achievement_star25 = "CgkI2_eWkcoYEAIQBw"; // <GPGSID>
-        public const string achievement_star5 = "CgkI2_eWkcoYEAIQAg"; // <GPGSID>
-        public const string achievement_star15 = "CgkI2_eWkcoYEAIQBQ"; // <GPGSID>
-        public const string achievement_star20 = "CgkI2_eWkcoYEAIQBg"; // <GPGSID>
+        public const string leaderboard_isflyjumpgamenocode2 = "CgkIxPOJ2pkIEAIQAQ"; // <GPGSID>
+        public const string achievement_star10 = "CgkIxPOJ2pkIEAIQAw"; // <GPGSID>
+        public const string achievement_star25 = "CgkIxPOJ2pkIEAIQBg"; // <GPGSID>
+        public const string achievement_star5 = "CgkIxPOJ2pkIEAIQAg"; // <GPGSID>
+        public const string achievement_star15 = "CgkIxPOJ2pkIEAIQBA"; // <GPGSID>
+        public const string achievement_star20 = "CgkIxPOJ2pkIEAIQBQ"; // <GPGSID>
 
 }
 
